@@ -7,6 +7,11 @@ var param = {
     XX:null
 };
 
+var param3 = {
+	    mapUrl: null,
+	    layout: null
+	   
+	};
 $(function () {
     loadMap();
     var $box = $('.box').mousedown(function (e) {
