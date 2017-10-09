@@ -1,10 +1,10 @@
-var param = {
+﻿var param = {
     mapUrl: null,
     layout: null,
     extent: null,
     title: null,
     mapFrameId: null,
-    XX:null
+    XXrr:null
 };
 
 var param3 = {
