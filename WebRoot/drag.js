@@ -8,7 +8,8 @@ var param = {
 };
 
 var param3 = {
-	    mapUrl: null,
+	    sds:null,
+	    sfdsf:23,
 	    layout: null
 	   
 	};
