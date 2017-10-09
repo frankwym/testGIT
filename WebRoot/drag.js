@@ -4,9 +4,7 @@ var param = {
     extent: null,
     title: null,
     mapFrameId: null,
-    scale: null,
-    compassId: null,
-    fangda: null
+    XX:null
 };
 
 $(function () {
