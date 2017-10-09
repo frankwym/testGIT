@@ -1,0 +1,82 @@
+body {
+    background-color: #F3F3F3;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.paper {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 30px auto;
+}
+
+.mapFrame {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background: url(images/MapFrame103.png);
+    background-size: 800px 500px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    cursor: move;
+    position: absolute;
+    background-color: #FFF;
+    border: 1px solid #CCCCCC;
+    overflow: hidden;
+    max-width: 776px;
+}
+
+.coor {
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    cursor: se-resize;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #09C;
+}
+
+#mainMap {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    width: 778px;
+    height: 476px;
+}
+
+#mapName {
+    top: 11px;
+    left: 300px;
+    height: 40px;
+}
+
+#legend {
+    bottom: 11px;
+    right: 12px;
+}
+
+#compass {
+    top: 11px;
+    right: 12px;
+    width: 50px;
+    height: 40px;
+}
+
+#scale {
+    bottom: 11px;
+    left: 12px;
+    height: 22px;
+}
+
+#chart {
+    bottom: 100px;
+    left: 12px;
+    height: 120px;
+}

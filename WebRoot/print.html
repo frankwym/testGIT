@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>地理国情在线制图服务系统</title>
+
+<link rel="stylesheet" href="css/libs/bootstrap.min.css">
+<link rel="stylesheet" href="./css/index_style.css">
+<link rel="stylesheet" href="./css/design_style.css">
+<link rel="stylesheet" href="./css/gqprint_style.css">
+</head>
+
+<body>
+
+
+	<div id="wrap_content"
+		style="height:1000px;width:auto;position:relative;">
+		<!-- 这里是预览图片容器 -->
+		<div id="modelimg_div"
+			style="background:#F5FBF8;  width:auto;height:auto; margin-left:20px; margin-right:320px;  border:1px solid rgba(0,0,0,0.2); padding:0; position:relative;">
+			<img id="100" style="margin: 100px 200px;"
+				src="images/layout/modelPic100.png">
+		</div>
+
+		<!-- 制图打印时的右侧tab -->
+		<div id="tab3"
+			style="position: absolute; width:310px;top:2px;right:0px;">
+			<div
+				style="color:#FFF;background-color: #2d5990;border-color: #2d5990;width:308px;height:52px;
+				padding-bottom: 10px;padding-left: 15px;padding-right: 15px;padding-top: 10px;">图名</div>
+			<div style="padding: 10px 2px;">
+				<input id="usermapname" type="text" class="form-control"
+					placeholder="请在此处输入图名" style="height:50px">
+			</div>
+			<div
+				style="color:#FFF;background-color: #2d5990;border-color: #2d5990;width:308px;height:52px;
+				padding-bottom: 10px;padding-left: 15px;padding-right: 15px;padding-top: 10px;">级别</div>
+			<div style="padding: 10px 2px;">
+				<input id="maplevel" type="text" class="form-control"
+					placeholder="请在此处输入地图级别" style="height:50px">
+			</div>
+			<div
+				style="color:#FFF;background-color: #2d5990;border-color: #2d5990;width:308px;height:52px;
+				padding-bottom: 10px;padding-left: 15px;padding-right: 15px;padding-top: 10px;">版式</div>
+			<div id="modle"
+				style="height: 500px;overflow-x: hidden;overflow-y: scroll;display: block;">
+				<li><img id="100" class="imgh" onclick="choosecss(this.id)"
+					src="images/layout/modelNail100.png">
+				</li>
+				<li><img id="101" class="imgh" onclick="choosecss(this.id)"
+					src="images/layout/modelNail101.png"></a>
+				</li>
+				<li><img id="102" class="imgh" onclick="choosecss(this.id)"
+					src="images/layout/modelNail102.png"></a>
+				</li>
+				<li><img id="103" class="imgv" onclick="choosecss(this.id)"
+					src="images/layout/modelNail103.png"></a>
+				</li>
+				<li><img id="104" class="imgv" onclick="choosecss(this.id)"
+					src="images/layout/modelNail104.png"></a>
+				</li>
+			</div>
+
+			<button id="comfire_result" class="btn btn-primary" type="button"
+				style="width:100%;margin:5px 0px">确认出图</button>
+			<!-- </div> -->
+		</div>
+
+		<!--  bootstrap core js 引用，jQuery引用必须在bootstrap之前-->
+		<script src="js/libs/jquery.min.js"></script>
+		<script src="js/libs/bootstrap.min.js"></script>
+		<script src="js/gqprint.js"></script>
+		<script src="js/getTiledData.js"></script>
+</body>
+</html>
